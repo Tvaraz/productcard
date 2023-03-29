@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.desktop{
+    display:none;
+}
+
+    
+
+.main{
+    width: 343px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.mobile{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+h2{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    letter-spacing: 5px;
+    color: #6C7289;
+    margin-top: 12px;
+}
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color:#1C232B;
+    margin-top: 12px;
+}
+.chanel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color:#6C7289;
+    margin-top: 16px;
+}
+.firstprice{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color:#3D8168;
+}
+.lastprice{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color:#6C7289;
+    text-decoration-line: line-through;
+    margin-left: 19px;
+}
+.price{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+.cart{
+    background-color:#3D8168;
+    width: 295px;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttontext{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: white;
+}
+body{
+    background-color: #F2EAE2;
+}
+.text{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 24px;
+}
+@media ( min-width:1000px){
+    .desktop{
+        display: inline-block;
+        height: 450px;
+    }
+    .mobile{
+        display: none;
+    }
+    .main{
+        width: 600px;
+        display: flex;
+    }
+    h2{
+        margin-top: 32px;
+        font-size: 12px;
+    }
+    h1{
+        margin-top: 20px;
+        font-size: 32px;
+    }
+    .chanel{
+        margin-top: 24px;
+    }
+    .price{
+        margin-top: 29px;
+    }
+    .cart{
+        width: 100%;
+    }
+    .text{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
